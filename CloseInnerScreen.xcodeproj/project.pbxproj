@@ -7,19 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A72BAAAF2232B03700FC61F5 /* CloseInnerScreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = A72BAAAE2232B03700FC61F5 /* CloseInnerScreenView.h */; };
-		A72BAAB12232B03700FC61F5 /* CloseInnerScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = A72BAAB02232B03700FC61F5 /* CloseInnerScreenView.m */; };
+		A72BAACF2232B1EB00FC61F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A72BAACE2232B1EB00FC61F5 /* AppDelegate.m */; };
+		A72BAAD22232B1EB00FC61F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A72BAAD12232B1EB00FC61F5 /* ViewController.m */; };
+		A72BAAD42232B1ED00FC61F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72BAAD32232B1ED00FC61F5 /* Assets.xcassets */; };
+		A72BAAD72232B1ED00FC61F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72BAAD52232B1ED00FC61F5 /* Main.storyboard */; };
+		A72BAADA2232B1ED00FC61F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A72BAAD92232B1ED00FC61F5 /* main.m */; };
+		A72BAAE52232B1ED00FC61F5 /* CloseInnerScreenAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A72BAAE42232B1ED00FC61F5 /* CloseInnerScreenAppTests.m */; };
+		A72BAAF02232B1ED00FC61F5 /* CloseInnerScreenAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A72BAAEF2232B1ED00FC61F5 /* CloseInnerScreenAppUITests.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A72BAAE12232B1ED00FC61F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A72BAAA22232B03700FC61F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A72BAACA2232B1EB00FC61F5;
+			remoteInfo = CloseInnerScreenApp;
+		};
+		A72BAAEC2232B1ED00FC61F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A72BAAA22232B03700FC61F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A72BAACA2232B1EB00FC61F5;
+			remoteInfo = CloseInnerScreenApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		A72BAAAB2232B03700FC61F5 /* CloseInnerScreen.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloseInnerScreen.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		A72BAAAE2232B03700FC61F5 /* CloseInnerScreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloseInnerScreenView.h; sourceTree = "<group>"; };
-		A72BAAB02232B03700FC61F5 /* CloseInnerScreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloseInnerScreenView.m; sourceTree = "<group>"; };
-		A72BAAB22232B03700FC61F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72BAACB2232B1EB00FC61F5 /* CloseInnerScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloseInnerScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72BAACD2232B1EB00FC61F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A72BAACE2232B1EB00FC61F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A72BAAD02232B1EB00FC61F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A72BAAD12232B1EB00FC61F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A72BAAD32232B1ED00FC61F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A72BAAD62232B1ED00FC61F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A72BAAD82232B1ED00FC61F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72BAAD92232B1ED00FC61F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A72BAADB2232B1ED00FC61F5 /* CloseInnerScreenApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloseInnerScreenApp.entitlements; sourceTree = "<group>"; };
+		A72BAAE02232B1ED00FC61F5 /* CloseInnerScreenAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloseInnerScreenAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72BAAE42232B1ED00FC61F5 /* CloseInnerScreenAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloseInnerScreenAppTests.m; sourceTree = "<group>"; };
+		A72BAAE62232B1ED00FC61F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72BAAEB2232B1ED00FC61F5 /* CloseInnerScreenAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloseInnerScreenAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72BAAEF2232B1ED00FC61F5 /* CloseInnerScreenAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloseInnerScreenAppUITests.m; sourceTree = "<group>"; };
+		A72BAAF12232B1ED00FC61F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A72BAAA82232B03700FC61F5 /* Frameworks */ = {
+		A72BAAC82232B1EB00FC61F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72BAADD2232B1ED00FC61F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72BAAE82232B1ED00FC61F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,7 +80,9 @@
 		A72BAAA12232B03700FC61F5 = {
 			isa = PBXGroup;
 			children = (
-				A72BAAAD2232B03700FC61F5 /* CloseInnerScreen */,
+				A72BAACC2232B1EB00FC61F5 /* CloseInnerScreenApp */,
+				A72BAAE32232B1ED00FC61F5 /* CloseInnerScreenAppTests */,
+				A72BAAEE2232B1ED00FC61F5 /* CloseInnerScreenAppUITests */,
 				A72BAAAC2232B03700FC61F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,52 +90,102 @@
 		A72BAAAC2232B03700FC61F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A72BAAAB2232B03700FC61F5 /* CloseInnerScreen.saver */,
+				A72BAACB2232B1EB00FC61F5 /* CloseInnerScreen.app */,
+				A72BAAE02232B1ED00FC61F5 /* CloseInnerScreenAppTests.xctest */,
+				A72BAAEB2232B1ED00FC61F5 /* CloseInnerScreenAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A72BAAAD2232B03700FC61F5 /* CloseInnerScreen */ = {
+		A72BAACC2232B1EB00FC61F5 /* CloseInnerScreenApp */ = {
 			isa = PBXGroup;
 			children = (
-				A72BAAAE2232B03700FC61F5 /* CloseInnerScreenView.h */,
-				A72BAAB02232B03700FC61F5 /* CloseInnerScreenView.m */,
-				A72BAAB22232B03700FC61F5 /* Info.plist */,
+				A72BAACD2232B1EB00FC61F5 /* AppDelegate.h */,
+				A72BAACE2232B1EB00FC61F5 /* AppDelegate.m */,
+				A72BAAD02232B1EB00FC61F5 /* ViewController.h */,
+				A72BAAD12232B1EB00FC61F5 /* ViewController.m */,
+				A72BAAD32232B1ED00FC61F5 /* Assets.xcassets */,
+				A72BAAD52232B1ED00FC61F5 /* Main.storyboard */,
+				A72BAAD82232B1ED00FC61F5 /* Info.plist */,
+				A72BAAD92232B1ED00FC61F5 /* main.m */,
+				A72BAADB2232B1ED00FC61F5 /* CloseInnerScreenApp.entitlements */,
 			);
-			path = CloseInnerScreen;
+			path = CloseInnerScreenApp;
+			sourceTree = "<group>";
+		};
+		A72BAAE32232B1ED00FC61F5 /* CloseInnerScreenAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A72BAAE42232B1ED00FC61F5 /* CloseInnerScreenAppTests.m */,
+				A72BAAE62232B1ED00FC61F5 /* Info.plist */,
+			);
+			path = CloseInnerScreenAppTests;
+			sourceTree = "<group>";
+		};
+		A72BAAEE2232B1ED00FC61F5 /* CloseInnerScreenAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A72BAAEF2232B1ED00FC61F5 /* CloseInnerScreenAppUITests.m */,
+				A72BAAF12232B1ED00FC61F5 /* Info.plist */,
+			);
+			path = CloseInnerScreenAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		A72BAAA62232B03700FC61F5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A72BAAAF2232B03700FC61F5 /* CloseInnerScreenView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		A72BAAAA2232B03700FC61F5 /* CloseInnerScreen */ = {
+		A72BAACA2232B1EB00FC61F5 /* CloseInnerScreen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A72BAAB52232B03700FC61F5 /* Build configuration list for PBXNativeTarget "CloseInnerScreen" */;
+			buildConfigurationList = A72BAAF22232B1ED00FC61F5 /* Build configuration list for PBXNativeTarget "CloseInnerScreen" */;
 			buildPhases = (
-				A72BAAA62232B03700FC61F5 /* Headers */,
-				A72BAAA72232B03700FC61F5 /* Sources */,
-				A72BAAA82232B03700FC61F5 /* Frameworks */,
-				A72BAAA92232B03700FC61F5 /* Resources */,
+				A72BAAC72232B1EB00FC61F5 /* Sources */,
+				A72BAAC82232B1EB00FC61F5 /* Frameworks */,
+				A72BAAC92232B1EB00FC61F5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CloseInnerScreen;
-			productName = CloseInnerScreen;
-			productReference = A72BAAAB2232B03700FC61F5 /* CloseInnerScreen.saver */;
-			productType = "com.apple.product-type.bundle";
+			productName = CloseInnerScreenApp;
+			productReference = A72BAACB2232B1EB00FC61F5 /* CloseInnerScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A72BAADF2232B1ED00FC61F5 /* CloseInnerScreenAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72BAAF52232B1ED00FC61F5 /* Build configuration list for PBXNativeTarget "CloseInnerScreenAppTests" */;
+			buildPhases = (
+				A72BAADC2232B1ED00FC61F5 /* Sources */,
+				A72BAADD2232B1ED00FC61F5 /* Frameworks */,
+				A72BAADE2232B1ED00FC61F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A72BAAE22232B1ED00FC61F5 /* PBXTargetDependency */,
+			);
+			name = CloseInnerScreenAppTests;
+			productName = CloseInnerScreenAppTests;
+			productReference = A72BAAE02232B1ED00FC61F5 /* CloseInnerScreenAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A72BAAEA2232B1ED00FC61F5 /* CloseInnerScreenAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72BAAF82232B1ED00FC61F5 /* Build configuration list for PBXNativeTarget "CloseInnerScreenAppUITests" */;
+			buildPhases = (
+				A72BAAE72232B1ED00FC61F5 /* Sources */,
+				A72BAAE82232B1ED00FC61F5 /* Frameworks */,
+				A72BAAE92232B1ED00FC61F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A72BAAED2232B1ED00FC61F5 /* PBXTargetDependency */,
+			);
+			name = CloseInnerScreenAppUITests;
+			productName = CloseInnerScreenAppUITests;
+			productReference = A72BAAEB2232B1ED00FC61F5 /* CloseInnerScreenAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,8 +196,16 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = weixin;
 				TargetAttributes = {
-					A72BAAAA2232B03700FC61F5 = {
+					A72BAACA2232B1EB00FC61F5 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					A72BAADF2232B1ED00FC61F5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A72BAACA2232B1EB00FC61F5;
+					};
+					A72BAAEA2232B1ED00FC61F5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A72BAACA2232B1EB00FC61F5;
 					};
 				};
 			};
@@ -107,19 +215,38 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = A72BAAA12232B03700FC61F5;
 			productRefGroup = A72BAAAC2232B03700FC61F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A72BAAAA2232B03700FC61F5 /* CloseInnerScreen */,
+				A72BAACA2232B1EB00FC61F5 /* CloseInnerScreen */,
+				A72BAADF2232B1ED00FC61F5 /* CloseInnerScreenAppTests */,
+				A72BAAEA2232B1ED00FC61F5 /* CloseInnerScreenAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A72BAAA92232B03700FC61F5 /* Resources */ = {
+		A72BAAC92232B1EB00FC61F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72BAAD42232B1ED00FC61F5 /* Assets.xcassets in Resources */,
+				A72BAAD72232B1ED00FC61F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72BAADE2232B1ED00FC61F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72BAAE92232B1ED00FC61F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,15 +256,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A72BAAA72232B03700FC61F5 /* Sources */ = {
+		A72BAAC72232B1EB00FC61F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A72BAAB12232B03700FC61F5 /* CloseInnerScreenView.m in Sources */,
+				A72BAAD22232B1EB00FC61F5 /* ViewController.m in Sources */,
+				A72BAADA2232B1ED00FC61F5 /* main.m in Sources */,
+				A72BAACF2232B1EB00FC61F5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72BAADC2232B1ED00FC61F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72BAAE52232B1ED00FC61F5 /* CloseInnerScreenAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72BAAE72232B1ED00FC61F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72BAAF02232B1ED00FC61F5 /* CloseInnerScreenAppUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A72BAAE22232B1ED00FC61F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A72BAACA2232B1EB00FC61F5 /* CloseInnerScreen */;
+			targetProxy = A72BAAE12232B1ED00FC61F5 /* PBXContainerItemProxy */;
+		};
+		A72BAAED2232B1ED00FC61F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A72BAACA2232B1EB00FC61F5 /* CloseInnerScreen */;
+			targetProxy = A72BAAEC2232B1ED00FC61F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A72BAAD52232B1ED00FC61F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72BAAD62232B1ED00FC61F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A72BAAB32232B03700FC61F5 /* Debug */ = {
@@ -251,29 +420,107 @@
 			};
 			name = Release;
 		};
-		A72BAAB62232B03700FC61F5 /* Debug */ = {
+		A72BAAF32232B1ED00FC61F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloseInnerScreenApp/CloseInnerScreenApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = CloseInnerScreen/Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_BUNDLE_IDENTIFIER = me.yaha.CloseInnerScreen;
+				INFOPLIST_FILE = CloseInnerScreenApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.yaha.CloseInnerScreenApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
 		};
-		A72BAAB72232B03700FC61F5 /* Release */ = {
+		A72BAAF42232B1ED00FC61F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloseInnerScreenApp/CloseInnerScreenApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CloseInnerScreenApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.yaha.CloseInnerScreenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A72BAAF62232B1ED00FC61F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CloseInnerScreenAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.yaha.CloseInnerScreenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloseInnerScreenApp.app/Contents/MacOS/CloseInnerScreenApp";
+			};
+			name = Debug;
+		};
+		A72BAAF72232B1ED00FC61F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CloseInnerScreenAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.yaha.CloseInnerScreenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloseInnerScreenApp.app/Contents/MacOS/CloseInnerScreenApp";
+			};
+			name = Release;
+		};
+		A72BAAF92232B1ED00FC61F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = CloseInnerScreen/Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_BUNDLE_IDENTIFIER = me.yaha.CloseInnerScreen;
+				INFOPLIST_FILE = CloseInnerScreenAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.yaha.CloseInnerScreenAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = saver;
+				TEST_TARGET_NAME = CloseInnerScreenApp;
+			};
+			name = Debug;
+		};
+		A72BAAFA2232B1ED00FC61F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CloseInnerScreenAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.yaha.CloseInnerScreenAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CloseInnerScreenApp;
 			};
 			name = Release;
 		};
@@ -289,11 +536,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A72BAAB52232B03700FC61F5 /* Build configuration list for PBXNativeTarget "CloseInnerScreen" */ = {
+		A72BAAF22232B1ED00FC61F5 /* Build configuration list for PBXNativeTarget "CloseInnerScreen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A72BAAB62232B03700FC61F5 /* Debug */,
-				A72BAAB72232B03700FC61F5 /* Release */,
+				A72BAAF32232B1ED00FC61F5 /* Debug */,
+				A72BAAF42232B1ED00FC61F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72BAAF52232B1ED00FC61F5 /* Build configuration list for PBXNativeTarget "CloseInnerScreenAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72BAAF62232B1ED00FC61F5 /* Debug */,
+				A72BAAF72232B1ED00FC61F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72BAAF82232B1ED00FC61F5 /* Build configuration list for PBXNativeTarget "CloseInnerScreenAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72BAAF92232B1ED00FC61F5 /* Debug */,
+				A72BAAFA2232B1ED00FC61F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

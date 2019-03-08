@@ -18,9 +18,5 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2019 weixin. All rights reserved.</string>
-	<key>NSPrincipalClass</key>
-	<string>CloseInnerScreenView</string>
 </dict>
 </plist>
