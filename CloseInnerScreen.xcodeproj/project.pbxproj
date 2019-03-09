@@ -50,6 +50,7 @@
 		A72BAAEB2232B1ED00FC61F5 /* CloseInnerScreenAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloseInnerScreenAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72BAAEF2232B1ED00FC61F5 /* CloseInnerScreenAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloseInnerScreenAppUITests.m; sourceTree = "<group>"; };
 		A72BAAF12232B1ED00FC61F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A786F3212233905800456D14 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 		A72BAAA12232B03700FC61F5 = {
 			isa = PBXGroup;
 			children = (
+				A786F3212233905800456D14 /* README.md */,
 				A72BAACC2232B1EB00FC61F5 /* CloseInnerScreenApp */,
 				A72BAAE32232B1ED00FC61F5 /* CloseInnerScreenAppTests */,
 				A72BAAEE2232B1ED00FC61F5 /* CloseInnerScreenAppUITests */,

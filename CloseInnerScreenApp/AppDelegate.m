@@ -47,8 +47,12 @@
         [sender setTitle:@"开启内建显示器"];
     }
 }
+- (IBAction)BuyMeACoffee:(id)sender {
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/ruandao/CloseInnerScreen"]];
+}
+
 - (IBAction)feedback:(id)sender {
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://yaha.me"]];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/ruandao/CloseInnerScreen/issues"]];
 }
 
 - (IBAction)exit:(id)sender {
