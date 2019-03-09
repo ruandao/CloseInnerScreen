@@ -41,10 +41,10 @@
     float innerScreenBrightnessLevel = [self getScreenBrightnessLevel];
     if (innerScreenBrightnessLevel < 0.5) {
         [self openScreen];
-        [sender setTitle:@"关闭内建显示器"];
+        [sender setTitle:@"(Close Inner Screen)关闭内建显示器"];
     } else {
         [self closeScreen];
-        [sender setTitle:@"开启内建显示器"];
+        [sender setTitle:@"(Open Inner Screen)开启内建显示器"];
     }
 }
 - (IBAction)BuyMeACoffee:(id)sender {

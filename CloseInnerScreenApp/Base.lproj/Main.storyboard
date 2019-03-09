@@ -682,25 +682,25 @@
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <menu id="m3b-is-CAP">
                     <items>
-                        <menuItem title="关闭内建显示器" id="J9m-1H-fkr">
+                        <menuItem title="(Close Inner Screen)关闭内建显示器" id="J9m-1H-fkr">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <action selector="toggleInnerScreen:" target="Voe-Tx-rLC" id="pCw-TR-jRl"/>
                             </connections>
                         </menuItem>
-                        <menuItem title="请我喝杯咖啡" id="BhY-2l-Uxi">
+                        <menuItem title="(Buy me a coffee)请我喝杯咖啡" id="BhY-2l-Uxi">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <action selector="BuyMeACoffee:" target="Voe-Tx-rLC" id="dHu-Da-sJk"/>
                             </connections>
                         </menuItem>
-                        <menuItem title="反馈" id="Rpf-Hr-h8C">
+                        <menuItem title="(Feedback)反馈" id="Rpf-Hr-h8C">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <action selector="feedback:" target="Voe-Tx-rLC" id="y7j-rX-GR6"/>
                             </connections>
                         </menuItem>
-                        <menuItem title="关闭" id="hKC-Na-ZXS">
+                        <menuItem title="(Quit)关闭" id="hKC-Na-ZXS">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <action selector="exit:" target="Voe-Tx-rLC" id="FzR-g7-lD4"/>
